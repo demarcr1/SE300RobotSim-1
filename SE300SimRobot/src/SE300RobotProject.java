@@ -68,6 +68,23 @@ public class SE300RobotProject extends Class1 {
 		VBox cob125Sim_userInput = new VBox() ; 
 		//this is the pane that will hold the back button, the about button, and the how to button
 		HBox cob125Sim_information = new HBox() ; 
+		
+		
+		//create all of the text for the gui 
+		
+		//text for the home menu
+		//this is the title for the home menu 
+		Text homemenu_title = new Text("ECSSE Robot Simulation") ;
+		
+		//text for the lehman atrium
+		//this text is the title for the lehman atrium simulation 
+		Text lehmanAtriumSim_title = new Text("Lehman Atrium Simulation") ; 
+		
+		//text for ecsse hallways 
+		
+		
+		
+		
 
 	}
 
