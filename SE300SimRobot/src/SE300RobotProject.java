@@ -75,12 +75,32 @@ public class SE300RobotProject extends Class1 {
 		//text for the home menu
 		//this is the title for the home menu 
 		Text homemenu_title = new Text("ECSSE Robot Simulation") ;
+		//this is the  subtitle for the home menu
+		Text homemenu_subtitle = new Text("SE300 Fall 2015 Project")
 		
 		//text for the lehman atrium
 		//this text is the title for the lehman atrium simulation 
 		Text lehmanAtriumSim_title = new Text("Lehman Atrium Simulation") ; 
 		
 		//text for ecsse hallways 
+		Text ecsseHallwaySim_title = new Text("ECSSE Hallway Simulation") ; 
+		
+		//this is the text that is for the cob simulation 
+		Text cob125Sim_title = new Text("COB Room 125 Simulation") ; 
+		
+		
+		//create all the buttons for the gui
+		
+		//buttons for the lehman atrium
+		//this button will take you to the screen for the lehman atrium simulation from the home menu 
+		Button lehmanAtriumSim_button = new Button("Lehman Atrium Simulation") ; 
+		
+		//this button will take you to the screen for the ECSSE Hallway simulation from the home menu
+		Button ecsseHallwaySim_button = new Button("ECSSE Hallway Simulation") ; 
+		
+		//this is the button that will talk you to the cob simulation from the home menu
+		Button cob125Sim_button = new Text("COB Room 125 Simulation") ; 
+		
 		
 		
 		
